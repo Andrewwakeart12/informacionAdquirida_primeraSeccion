@@ -1,0 +1,1 @@
+# informacionAdquirida_primeraSeccion
