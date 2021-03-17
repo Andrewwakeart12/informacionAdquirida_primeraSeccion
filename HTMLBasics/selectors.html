@@ -3,8 +3,28 @@
   <head>
     <meta charset="utf-8">
     <title>Selectors: classes and ids</title>
+<style media="screen">
+  .class{
+    color:red;
+  }
+  #id{
+    color:green;
+  }
+</style>
   </head>
-  <body>
 
+  <body>
+    <h3>Selectors</h3>
+    <p>selector is an attribute that make a target in a tag, what it means is that the tag will be accesible through the value of the tag, for example:</p>
+    <h3 class="class">hello</h3>
+    <h3 class="class">hello</h3>
+    <h3 class="class">hello</h3>
+    <h3 class="class">hello</h3>
+    <p>all the tags above have a class with the "class" value,classes are made for work in multiple objects at once, so when the CSS use the selector "class" the style make's effect in all the tags with this value, but we can use at the same time a class and a id, the id its use it for affect one element at the time, example:</p>
+    <h3 class="class" id="id">hello</h3>
+    <h3 class="class">hello</h3>
+    <h3 class="class">hello</h3>
+    <h3 class="class">hello</h3>
+    <p>in this case the id have a value of "id" and only affects the element that has the id, its recommended just use one id by tag, otherwise you can use the class attribute</p>
   </body>
 </html>
