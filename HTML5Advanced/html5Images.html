@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta http-equiv="X-UA-Compatible" content="ie=edge">
+  <title>Document</title>
+</head>
+<body>
+  <!-- <img> defines a regular image-->
+  <h1>img:</h1>
+  <p>what a img tag does its search for a url (take it in the src attribute if its not avaible the image doesnt appear)</p>
+  <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSI5-djPlHTxiKfv2ygJQNkDmi1qBgFQDcVog&usqp=CAU" alt="">
+<!-- <map> defines a client-side image map-->
+  <h1>map:</h1>
+  <p>a map its a tag that define a clean site image map (a map its a image with a clickable area)</p>
+  <map name="mapimg">
+    <area shape="square" coords="30,40,270,350" href="#" alt="">
+  </map>
+  <!-- <area> defines an area inside an image map-->
+  <h1>area:</h1>
+  <p>a area its a tag that defines the area of a map tag</p>
+  <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSI5-djPlHTxiKfv2ygJQNkDmi1qBgFQDcVog&usqp=CAU" alt="" usemap="#mapimg">
+
+  <!-- <canvas> defines an area where you can draw graphics-->  <h1>canvas:</h1>
+<p>defines an area where you can draw graphics usually this is programmed in js</p>
+<canvas width="200" height="200"></canvas>
+  <!-- <figcaption> defines a caption for a <figure> element-->
+<h1>fgcaption</h1>
+<p>defines a caption for a figure tag (it goes inside a figure tag)</p>
+<figcaption></figcaption>
+<!-- <figure> defines aself-contained content-->
+<h1>figure:</h1>
+<p> figure tag defines a self-contained content</p>
+<figure>
+  <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSI5-djPlHTxiKfv2ygJQNkDmi1qBgFQDcVog&usqp=CAU" alt="" usemap="#mapimg">
+  <figcaption>this is a figcaption</figcaption>
+</figure>
+
+<!-- <picture> defines a container for multiple image resources-->
+<h1>picture:</h1>
+<p>defines a container for multiple image resources, its more use it in responsive desing but the better alternative its use css for make the same</p>
+<picture>
+  <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSI5-djPlHTxiKfv2ygJQNkDmi1qBgFQDcVog&usqp=CAU" alt="" usemap="#mapimg">
+  <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSI5-djPlHTxiKfv2ygJQNkDmi1qBgFQDcVog&usqp=CAU" alt="" usemap="#mapimg">
+  <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSI5-djPlHTxiKfv2ygJQNkDmi1qBgFQDcVog&usqp=CAU" alt="" usemap="#mapimg">
+</picture>
+<!-- <svg> defines a container for svg(Scalable Vector Graphics) graphics-->
+<h1>svg</h1>
+<p>defines a container for svg(Scalable Vector Graphics) graphics, basically a Extensible M0arkup-Language for making vectorial graphics</p>
+<svg>
+   <circle cx="50" cy="50" r="40" stroke="black" stroke-width="3" fill="black" />
+</svg>
+</body>
+</html>
