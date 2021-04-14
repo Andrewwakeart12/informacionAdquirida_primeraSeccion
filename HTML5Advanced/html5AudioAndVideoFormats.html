@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Html audio and video</title>
+</head>
+<style type="text/css">
+	video{
+		width: 100%;
+	}
+</style>
+<body>
+	<h2>Html audio and video tags</h2>
+	<ol>
+		<li>
+			audio tag:
+			<p>Defines sound content, the audio tag content one or more sources, the browser will select the first compatible element inside the tag and browsers that does not suppor will not show the content (the three default audio extentions in html are: mp3,ogg and wave</p>
+			<h4>some random example i found in internet:</h4>
+			<audio src="https://www.soundhelix.com/examples/mp3/SoundHelix-Song-1.mp3" controls autoplay loop preload muted controls=""></audio>
+				
+		</li>
+
+			
+		<li>
+			source tag:
+			<p>Source tag its for multiple media resources, similar to the "src" parametter,it goes inside the audio or out as an independent tag so we can call for resources , the tag have a parametter called type which define if the element its audio,video or picture</p>
+
+			<source src="https://www.soundhelix.com/examples/mp3/SoundHelix-Song-3.mp3" type="audio/mp3">
+		</li>
+		<li>
+			track tag:
+			<p>Track tag define a track for media element video and audio this element is used to specify subtitles, caption files or other files containing text, that should be visible when the media is playing.</p>
+			<track kind="subtitles" src="">
+		</li>
+		<li>
+			video tag:
+			<p>Video tag define a video or visual media that a browser reproduce, if the browser play the video or not depends on compatibility</p>
+			<video src="http://commondatastorage.googleapis.com/gtv-videos-bucket/sample/BigBuckBunny.mp4" controls autoplay loop preload muted></video>
+		</li>
+	</ol>
+</body>
+</html>
