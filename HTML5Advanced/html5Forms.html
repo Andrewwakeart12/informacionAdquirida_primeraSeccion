@@ -54,13 +54,87 @@
 			</ol>
 			<p>and a few more, this fileds are very usefull for filter information or simply have and very clear idea for what the user will send</p>
 		</li>
-		<li>textarea tag:
+		<li><h3>textarea tag:</h3>
 			<p>its a tag that define a field for text, the text in it cant be very long, also we can block the size of the area if we wanted with rows and cols, alseo we can block the rows and cols value, so the user can't change it</p>
 			<textarea rows="20" cols="30"></textarea>
 		</li>
-		<li>select tag
+		<li><h3>select tag</h3>
 			<p>A select tag its a tag that defines a field with selectionable items in form of a dropdown list</p>
 			<select></select>
+		</li>
+		<li>
+			<h3>option tag</h3>
+			<p>defines an option in a dropdown list (select)</p>
+			<select>
+				<option>option 1</option>
+				<option>option 2</option>
+				<option>option 3</option>
+			</select>
+		</li>
+		<li>
+			<h3>optgroup tag</h3>
+			<p>defines a group of related options in a drodown list</p>
+			<select>
+				<optgroup>
+					<option>optgruop:</option>
+					<option>option 1</option>
+					<option>option 2</option>
+					<option>option 3</option>
+				</optgroup>
+				<option>1</option>
+				</select>
+		</li>
+		<li>
+			<h3>label tag</h3>
+			<p>a tag define a text binding with a form elmente by name, its use it for name diferent form like: name, password, adress ,etc</p>
+			<label for="password">password</label>
+			<input type="" name="password">
+			<p>the input name its "password"</p>
+		</li>
+		<li>
+			<h3>fieldset tag</h3>
+			<p>what it does is drawing a box around the related elements</p>
+			<form>
+
+ <fieldset>
+  <legend>Personal information</legend>
+  name: <input name='nombre' type='text' tabindex='1'>
+  Last name: <input name='apellidos' type='text' tabindex='2'>
+ </fieldset>
+
+ <fieldset>
+  <legend>age</legend>
+  <input type='checkbox' tabindex='20'
+            name='edad' value='20-39' > 20-39
+  <input type='checkbox' tabindex='21'
+            name='edad' value='40-59' > 40-59
+  <input type='checkbox' tabindex='22'
+            name='edad' value='60-79' > 60-79
+ </fieldset>
+
+</form>
+		</li>
+		<li>
+			<h3>legend tag</h3>
+			<p>in the last example we have a legend in a fieldsed, is the text in the outline of the fieldset an thats how it works legeng tag, it goes inside the fieldset</p>
+			<fieldset>
+				<legend>legend</legend>
+			fieldset
+			</fieldset>
+
+		</li>
+		<li>
+			<h3>datalist</h3>
+			<p>specifies a less pre-defined options for input control, works like a autocomplete option for inputs in form of a dropdown</p>
+			<input type="text" list="cars"name="" placeholder="card">
+			<datalist id="cars">
+				<option>ford</option>
+			</datalist>
+		</li>
+		<li>
+			<h3>output tag</h3>
+			<p>defines a result of a calculation</p>
+			<output></output>
 		</li>
 	</ol>
 </body>
