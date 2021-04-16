@@ -40,6 +40,10 @@
 					<input type="month" name="">
 				</li>
 
+				<li> <h3>date</h3>
+					<input type="date" name="">
+				</li>
+
 				<li> <h3>file</h3>
 					<input type="file" name="">
 				</li>
@@ -134,8 +138,14 @@
 		<li>
 			<h3>output tag</h3>
 			<p>defines a result of a calculation</p>
-			<output></output>
-		</li>
+			<form oninput="x.value=parseInt (a.value) + parseInt(b.value)">
+				<input type="range" id="a" value="50">
+				<input type="number" id="b" value="25" name="">
+				=<output name="x" for="a b">
+				
+				</output>
+			</form>
+			</li>
 	</ol>
 </body>
 </html>
