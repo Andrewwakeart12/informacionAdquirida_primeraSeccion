@@ -1,0 +1,102 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>CSS basic propertys</title>
+</head>
+<link rel="stylesheet" type="text/css" href="css/cssBasicPropertys.css">
+<body>
+  <style type="text/css">
+    /*this is just a comment*/
+    .exampleOne{
+      color: red;
+    }
+  </style>
+  <ol>
+    <li>
+      <h3>Comments</h3>
+      <p>are code made to explain code so its easy to understand, basically you use something like "/*" and this open the comment and for closing you use "*/"</p>
+    </li>
+    <li>
+      <h3>Inserting Css</h3>
+      <p>there are two options, 1. its just to add css directly in your html document and the 2. its just add an external css document with a link tag, so here's an example:
+        <ol>
+                  <li class="exampleOne">Document (Style tag)</li>
+        <li class="exampleTwo">External Document (Link tag)</li>
+        <h4>(its not recommended to use the style tag for a proyect but its avaible if you need it) also have in mind that the inline css its not recommended <tfoot></tfoot></h4>
+        </ol>
+      </p>
+    </li>
+    <li>
+      <h3>Syntaxis</h3>
+      <p>
+        in CSS you'll use a selector to select the element in the DOM (Document Object Model) so you can stylize one (id: #idInCSS) or various elements (class : .classInCSS)with the css (also you can select by the name of the element such a input,h1,etc).
+
+        so a selection in CSS looks like this:
+
+        <ol>
+          <li>
+            <h3>ID:</h3>
+            <p>
+              #oneElement{
+              property: value;
+            }
+            </p>
+          </li>
+
+          <li>
+            <h3>Class:</h3>
+            <p>
+              .multipleElements{
+              property: value;
+            }
+            </p>
+          </li>
+        </ol>
+
+        have in mind that you also can use somethiin like:
+        <h3>Tag:</h3>
+        input{
+              property: value;
+      }
+      so basically if the selector does'nt have a "#" or "." its just a regular tag so the propertys in there are going to affect only the input tags or the h1 tags, etc.
+      </p>
+    </li>
+    <li>
+      <h3>Colors</h3>
+      <p>they come in four maybe five formats and they are:
+        <ol>
+          <li>
+            <h3>HEX (Hexadecimal)</h3>
+            <p>this is hexadecimal number that goes from #000000 to #FFFFFF and its defined in that way with number from 0 to 9 and then after 9 from A to F so you have 16 numbers including the 0</p>
+          </li>
+          <li>
+            <h3>RGBA (Red, Green, Blue,Alpha)</h3>
+            <p>its a scale that goes from 0 to 255 and use the colors Red Green and Blue fot the scale (the alpha its just the opacity)</p>
+          </li>
+          <li>
+            <h3>HSL (Hue Saturation Light)</h3>
+            <p>its the artist method to select color and in html and CSS takes the value in each one of the propertys from 0% to 100%</p>
+          </li>
+          <li>
+            <h3>Prefab</h3>
+            <p>its a gamma of color that CSS have preconfigured so you can use it just saying the color like "red","blue", etc</p>
+          </li>
+        </ol>
+        there are more but this 4 are the main color forma  ts
+      </p>
+    </li>
+    <li>
+      <h3>Backgrounds</h3>
+      <p>there are just what goes back the element can be a color, a picture, a gradient,etc
+        there are plenty types of backgrounds such as the following:
+        <ol>
+          <li>
+            <h3>bacground-color</h3>
+            <p>accepts as value any color format standar in CSS and it looks like: .elements{</p>
+          </li>
+        </ol>
+      </p>
+    </li>
+  </ol>
+</body>
+</html>
